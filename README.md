@@ -1,1 +1,1 @@
-# giant-impact-scryptachain
+# giant-impact
