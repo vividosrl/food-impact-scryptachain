@@ -11,7 +11,7 @@ struct Proposal:
 Voted: event({_from: indexed(address), _name: bytes32, _value: int128})
 Election: event({ _from: indexed(address), _creationTimestamp: timestamp, _expire: timestamp, _proposalNumber: int128})
 
-MAXIMUM_PROPOSALS: constant(int128) = 20
+MAXIMUM_PROPOSALS: constant(int128) = 50
 voters: public(map(address, Voter))
 proposals: public(map(int128, Proposal))
 numberOfproposals: int128
