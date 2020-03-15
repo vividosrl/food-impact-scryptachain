@@ -27,7 +27,7 @@ contract("YouVote", () => {
     assert.equal(proposalsNumber, 2);
   });
 
-  it("Should doesn't pass the assert when voter vote twice", async () => {
+  it("Should doesn't pass the assert when voter votes twice", async () => {
     proposals[0] = 0;
     proposals[1] = 1;
     votesToProposals[0] = 4;
@@ -51,7 +51,7 @@ contract("YouVote", () => {
     try {
       await youVote.vote(proposals, votesToProposals);
     } catch (error) {
-      assert.equal(error.reason, "Wrong proposal number");
+      assert.equal(error.reason, "Wrong proposals number");
     }
   });
 
