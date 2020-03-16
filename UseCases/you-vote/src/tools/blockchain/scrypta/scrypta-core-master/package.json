@@ -12,29 +12,31 @@
   "author": "Scrypta Task Force",
   "license": "MIT",
   "devDependencies": {
-    "webpack": "^4.27.1",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": ">=3.1.11",
-    "webpack-merge": "^4.1.4"
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.19.2",
     "binstring": "^0.2.1",
     "browser-cookies": "^1.2.0",
-    "clean-webpack-plugin": "^1.0.0",
+    "clean-webpack-plugin": "^1.0.1",
     "coinkey": "^3.0.0",
     "create-hash": "^1.2.0",
     "crypto-hashing": "^1.0.0",
-    "crypto-js": "^3.1.9-1",
+    "crypto-js": "^3.3.0",
     "ecdsa": "^0.7.0",
     "eckey": "^1.0.0",
     "ecurve": "^1.0.6",
     "html-webpack-plugin": "^3.2.0",
     "lodash": "^4.17.15",
-    "node-rsa": "^1.0.1",
+    "minimist": "^1.2.5",
+    "node-rsa": "^1.0.7",
     "ripemd160": "^2.0.2",
-    "secp256k1": "^3.7.1",
-    "secure-random": "^1.1.1",
-    "uuid": "^3.3.2"
+    "secp256k1": "^3.8.0",
+    "secure-random": "^1.1.2",
+    "serialize-javascript": "^3.0.0",
+    "uuid": "^3.4.0"
   }
 }
