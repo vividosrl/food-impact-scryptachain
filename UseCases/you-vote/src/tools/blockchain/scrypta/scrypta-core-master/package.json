@@ -30,7 +30,7 @@
     "eckey": "^1.0.0",
     "ecurve": "^1.0.6",
     "html-webpack-plugin": "^3.2.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "minimist": "^1.2.5",
     "node-rsa": "^1.0.7",
     "ripemd160": "^2.0.2",
